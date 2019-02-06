@@ -1,0 +1,3 @@
+[merge "git-crypt"]
+	name = "git-crypt merge driver"
+	driver = mergetool.sh %O %A %B
