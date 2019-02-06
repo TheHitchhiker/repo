@@ -21,8 +21,8 @@ git merge-file -L "current branch" -L "ancestor branch" -L "other branch" "${cur
 exit_code=$?
 cat "${current_decrypted}" | git-crypt clean > $2
 
-#echo "Removing temporary files..."
-#rm "${other_decrypted}" "${ancestor_decrypted}" "${current_decrypted}"
+echo "Removing temporary files..."
+rm "${other_decrypted}" "${ancestor_decrypted}" "${current_decrypted}"
 
 if [ "$exit_code" -eq "0" ]
 then
