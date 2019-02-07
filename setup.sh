@@ -1,3 +1,4 @@
+#!/bin/bash
 # Add merge tool to $PATH
 PATH=$PATH:`pwd`
 # Append merge driver configuration to git local config
