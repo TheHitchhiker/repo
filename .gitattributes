@@ -1,1 +1,1 @@
-*.key           filter=git-crypt diff=git-crypt merge=git-crypt
+keys           filter=git-crypt diff=git-crypt merge=git-crypt
